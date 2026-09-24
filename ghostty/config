@@ -1,10 +1,10 @@
 # --- Appearance & Typography ---
 font-family = "JetBrains Mono NL"
 font-size = 16
-theme = "Tokyonight Night"
+theme = "Nord"
 
 # --- Visual Effects ---
-background-opacity = 0.8
+background-opacity = 0.9
 background-blur = 80
 macos-titlebar-style = transparent
 
