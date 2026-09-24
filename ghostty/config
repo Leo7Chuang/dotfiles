@@ -1,0 +1,23 @@
+# --- Appearance & Typography ---
+font-family = "JetBrains Mono NL"
+font-size = 16
+theme = "Tokyonight Night"
+
+# --- Visual Effects ---
+background-opacity = 0.8
+background-blur = 80
+macos-titlebar-style = transparent
+
+# --- Window Layout ---
+window-decoration = true
+window-padding-x = 10
+window-padding-y = 10
+window-height = 40
+window-width = 120
+
+# --- Terminal Behavior ---
+macos-option-as-alt = true
+window-save-state = always 
+copy-on-select = true
+cursor-style = block
+keybind = global:cmd+`=toggle_quick_terminal
