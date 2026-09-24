@@ -147,7 +147,7 @@ alias ls="eza --icons --group-directories-first"
 alias ll="eza -l --icons --git --group-directories-first --header"
 alias lt="eza --tree --icons --level=2"
 
-# -------- yazi ----------
+# ---------- yazi ----------
 # Shell wrapper for Yazi to change directory on exit
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
@@ -157,3 +157,7 @@ function y() {
 	fi
 	rm -f -- "$tmp"
 }
+
+# ---------- ssh ----------
+# Fix ghost characters and rendering issues in Ghostty terminal with Conda
+export TERM=xterm-256color
