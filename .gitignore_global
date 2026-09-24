@@ -14,3 +14,10 @@ build/
 
 # Editor temporary and swap files
 *.swp
+
+# Windows system artifacts
+desktop.ini
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
