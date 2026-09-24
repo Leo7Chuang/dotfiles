@@ -44,6 +44,8 @@ brew "tmux"
 brew "tree"
 # Internet file retriever
 brew "wget"
+# Blazing fast terminal file manager written in Rust, based on async I/O
+brew "yazi"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
 # Ookla Speedtest
